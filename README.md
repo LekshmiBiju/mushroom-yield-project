@@ -2,6 +2,10 @@
 
 This project is my first Python setup test.
 
+## Problem Statement
+
+This project aims to predict mushroom yield using environmental sensor data such as temperature, humidity, and CO2 levels. The goal is to build a machine learning pipeline that helps improve mushroom production and monitoring in agriculture.
+
 ## Environment Setup
 - Installed Python 3.10
 - Created and activated a virtual environment (venv)
