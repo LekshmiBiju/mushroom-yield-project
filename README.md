@@ -16,5 +16,11 @@ This project is my first Python setup test.
 - Humidity: 68%
 - CO2: 220ppm
 
+## Git Setup
+
+- Git repository initialized
+- Connected to GitHub
+- Project pushed to main branch
+
 ## Author
 Lekshmi
