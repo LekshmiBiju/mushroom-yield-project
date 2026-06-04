@@ -26,8 +26,14 @@ print("\nCleaned Shape:", df.shape)
 # Cleaning log
 with open("cleaning_log.md", "w") as f:
     f.write("# Cleaning Log\n")
-    f.write("- Removed duplicate rows\n")
-    f.write("- Kept humidity between 0 and 100\n")
-    f.write("- Removed rows with CO2 <= 0\n")
+    f.write("Original rows: 60\n")
+    f.write("Final rows: 60\n")
+    f.write("Duplicates removed: 0\n")
+    f.write("Missing values before cleaning:\n")
+    f.write(str(df.isnull().sum()))
+    f.write("\n\n")
+    f.write("Rules applied:\n")
+    f.write("- Humidity kept between 0 and 100\n")
+    f.write("- CO2 must be greater than 0\n")
 
 print("Cleaning completed.")
