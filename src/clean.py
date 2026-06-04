@@ -3,6 +3,7 @@ import pandas as pd
 # Load data
 df = pd.read_csv("data/interim/01_loaded.csv")
 
+
 print("Original Shape:", df.shape)
 
 # Missing values report
