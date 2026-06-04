@@ -20,6 +20,14 @@ This project aims to predict mushroom yield using environmental sensor data such
 - Humidity: 68%
 - CO2: 220ppm
 
+## Dataset Columns
+
+- timestamp: Date and time of sensor reading
+- temperature: Temperature inside the polyhouse (°C)
+- humidity: Relative humidity (%)
+- CO2: Carbon dioxide concentration (ppm)
+- yield: Mushroom yield harvested
+
 ## Git Setup
 
 - Git repository initialized
