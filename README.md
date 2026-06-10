@@ -57,5 +57,17 @@ Dataset sorted by timestamp.
 Training data was used to fit MinMaxScaler.
 Testing data was transformed using the same scaler to avoid data leakage.
 
+### Split Summary
+
+Train Rows: 292
+
+Test Rows: 73
+
+Train Dates:
+2024-01-01 to 2024-10-19
+
+Test Dates:
+2024-10-20 to 2024-12-31
+
 ## Author
 Lekshmi
