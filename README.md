@@ -93,5 +93,15 @@ Observations:
 - No strong systematic pattern observed.
 - Linear Regression is acceptable as a baseline model.
 
+## Random Forest Results
+
+Random Forest model was trained and compared with the baseline Linear Regression model.
+
+Outputs:
+- models/random_forest.joblib
+- reports/random_forest_report.md
+- reports/cv_results.md
+- reports/figures/rf_importance.png
+
 ## Author
 Lekshmi
