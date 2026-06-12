@@ -103,5 +103,10 @@ Outputs:
 - reports/cv_results.md
 - reports/figures/rf_importance.png
 
+# comparison
+
+RF CV MAE: 0.47404833333333257 +/- 0.05711333157026999
+Linear CV MAE: 0.4405590208164414 +/- 0.03375818091090288
+
 ## Author
 Lekshmi
