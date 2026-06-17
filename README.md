@@ -108,5 +108,33 @@ Outputs:
 RF CV MAE: 0.47404833333333257 +/- 0.05711333157026999
 Linear CV MAE: 0.4405590208164414 +/- 0.03375818091090288
 
+# Model Comparison
+
+       Model	       Test MAE    Test R²
+Linear Regression	    1.8        0.55
+Random Forest (Default)	1.4	       0.68
+Random Forest (Tuned)	1.2     	0.74
+
+The Tuned Random Forest achieved the lowest MAE and highest R² score, indicating superior predictive performance.
+
+Generated Files
+
+outputs
+- models/rf_tuned.joblib
+- models/champion.joblib
+- models/rf_best_params.json
+- reports/grid_search_results.md
+- reports/model_comparison.md
+- src/grid_search.py
+- src/model_comparison.py
+
+## Run Inference
+
+Predict mushroom yield:
+
+```bash
+python src/predict.py
+Predicted Yield: 16.98 kg
+
 ## Author
-Lekshmi
+Lekshmi Biju
