@@ -136,5 +136,15 @@ Predict mushroom yield:
 python src/predict.py
 Predicted Yield: 16.98 kg
 
+## Streamlit App
+
+Run:
+
+streamlit run app.py
+
+The app allows users to enter sensor values and predict mushroom yield.
+
+Screenshot saved in reports/streamlit_app.png.
+
 ## Author
 Lekshmi Biju
