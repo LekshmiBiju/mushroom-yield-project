@@ -146,5 +146,26 @@ The app allows users to enter sensor values and predict mushroom yield.
 
 Screenshot saved in reports/streamlit_app.png.
 
+## Streamlit Application
+
+Run the App
+
+Activate the virtual environment and run:
+
+streamlit run app.py
+
+Features
+
+- Predict mushroom yield using Temperature, Humidity, and CO₂ sensor readings.
+- Interactive sliders for sensor inputs.
+- Predicted yield displayed in kilograms.
+- Humidity sensitivity analysis chart.
+- Model information panel.
+- Out-of-range input warnings.
+
+Screenshot
+
+See "reports/streamlit_app.png" for the application interface.
+
 ## Author
 Lekshmi Biju
