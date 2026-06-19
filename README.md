@@ -171,5 +171,9 @@ See "reports/streamlit_app.png" for the application interface.
 
 pytest tests/
 
+## Live Demo
+
+Deployment URL:https://mushroom-yield-project-7nxbbbjsufc83coh3l6vz3.streamlit.app/
+
 ## Author
 Lekshmi Biju
