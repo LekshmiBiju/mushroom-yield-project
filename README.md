@@ -167,5 +167,9 @@ Screenshot
 
 See "reports/streamlit_app.png" for the application interface.
 
+## Run Tests
+
+pytest tests/
+
 ## Author
 Lekshmi Biju

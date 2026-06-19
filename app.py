@@ -4,15 +4,20 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_predict():
-    from src.predict import predict_yield
-    return predict_yield
-
-predict_yield = load_predict()
+    try:
+        from src.predict import predict_yield
+        return predict_yield
+    except Exception:
+        st.error("Model artifacts missing. Run training pipeline first.")
+        st.stop()
+with st.spinner("Loading model..."):
+ predict_yield = load_predict()
 
 st.set_page_config(
     page_title="Mushroom Yield Forecast",
+    page_icon="🍄",
     layout="centered"
 )
 
@@ -50,7 +55,8 @@ if co2 < 400 or co2 > 2000:
 
 # Prediction
 if st.button("Predict yield"):
-    kg = predict_yield(temp, humid, co2)
+    with st.spinner("Calculating yield..."):
+     kg = predict_yield(temp, humid, co2)
 
     st.metric(
         label="Estimated daily yield",
