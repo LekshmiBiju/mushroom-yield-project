@@ -3,6 +3,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from src.logger import log_prediction
 
 @st.cache_resource(show_spinner=False)
 def load_predict():
@@ -57,6 +58,7 @@ if co2 < 400 or co2 > 2000:
 if st.button("Predict yield"):
     with st.spinner("Calculating yield..."):
      kg = predict_yield(temp, humid, co2)
+     log_prediction(temp, humid, co2, kg)
 
     st.metric(
         label="Estimated daily yield",
