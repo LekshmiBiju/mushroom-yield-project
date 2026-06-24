@@ -248,6 +248,10 @@ pytest tests/
 ## Yield Scatter Plot
 
 ![Yield Scatter Plot](figures/scatter_yield.png)
+
+# Reflection
+
+This capstone project helped me understand the complete machine learning workflow from data collection to deployment. I learned data cleaning, exploratory data analysis, feature engineering, model training, evaluation, Streamlit deployment, monitoring, and logging. The most valuable skills gained were machine learning model development, cloud deployment, and project documentation. Areas for future improvement include working with larger real-world datasets and implementing automated model retraining pipelines.
 ---
 
 # Conclusion
